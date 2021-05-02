@@ -1,0 +1,157 @@
+.bodyCmnt{
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    align-items: center;
+    
+}
+.container{
+    /* border: 2px solid red; */
+    overflow-y: auto;
+}
+.cmntSUb{
+    border: 1px solid  rgba(0, 0, 0, .1);
+    margin: 10px 0px;
+    /* display: flex;
+    flex-direction: column; */
+}
+/* comment image  */
+.bodyCmnt img{
+    width: 35px;
+    border-radius: 45px;
+    padding: 10px 10px;
+}
+.bodyCmnt h3{
+    padding: 10px 5px;
+    opacity: .7;
+    font-size: 15px;
+}
+.bodyCmnt p{
+    padding: 10px 5px;
+    opacity: .4;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+}
+/* action section edit delete reply section */
+
+.subBody{
+    display: flex;
+    flex-direction: column;
+    margin-left: 72px;
+    padding: 0;
+    width: 88%;
+}
+.dispBody input{
+    width: 99%;
+    border: 1px solid  rgba(0, 0, 0, .1);
+    border-radius: 4px;
+}
+.dispBody1
+{
+    border: 1px solid  rgba(0, 0, 0, .1);
+    padding: 5px;  
+    display: block; 
+    border-radius: 5px;
+}
+/* comment sub section */
+.fileSection{
+    display: flex;
+    flex-direction: column;
+}
+/* attach files */
+.attachfiles{
+    position:relative;
+    border: 1px solid  rgba(0, 0, 0, .1);
+    margin: 5px 0;
+    
+    width: auto;
+    border-radius: 5px;
+    display: flex;
+    background-color: #f0f3ec;
+    align-items: center;
+}
+.action{
+    position: block;
+}
+.icon{
+    color:black;
+    margin: 5px 5px;
+    align-items: center;
+}
+.fileData{
+    align-items: center;
+    color: #357fc6;
+
+}
+.btncmt{
+    background-color: transparent;
+    border: none;
+    margin: 0px 5px;
+}
+.btncmt:hover{
+    border: 1px solid  rgba(0, 0, 0, .1);
+}
+/* comment secction */
+.dispBody{
+    border: 1px solid  rgba(0, 0, 0, .1);
+    padding: 5px;  
+    display: flex;  
+    border-radius: 5px;
+}
+.username{
+    border: 1px solid  rgba(0, 0, 0, .1);
+    background-color:rgba(0, 0, 0, .1) ;
+    padding: 3px 3px;
+    align-items: center;
+    border-radius: 5px;
+}
+.commentBody{
+    /* border: 2px solid green; */
+    align-items: center;
+    padding: 3px;
+}
+/* reply section modal */
+.ModalReply{
+    position:fixed;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    left:50%;
+    Transform: translate(-50%, -50%);
+    background:#fff;
+    padding:50px;
+    z-index:1000;
+}
+.overlay{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 1000;
+}
+.tagContent{
+    display: flex;
+    margin: 5px 0;
+}
+.btnReply{
+  padding: 12px 10px;
+  background-color: rgba(10,180,139,255);  
+  border: rgba(0, 0, 0, .5);
+  margin: 5px ;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+.replyTag{
+    padding: 8px 5;
+}
+.time{
+    font-size: 10px;
+    opacity: .6;
+}
+.reply{
+    display: flex;
+    flex-direction: column;
+}
