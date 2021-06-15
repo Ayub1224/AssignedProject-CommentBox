@@ -136,6 +136,7 @@
 }
 .btnReply{
   padding: 12px 10px;
+  flex:20%;
   background-color: rgba(10,180,139,255);  
   border: rgba(0, 0, 0, .5);
   margin: 5px ;
@@ -154,4 +155,7 @@
 .reply{
     display: flex;
     flex-direction: column;
+}
+.InputModal{
+    flex:80%;
 }
